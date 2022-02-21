@@ -1,0 +1,36 @@
+body{
+    background-color:#f0e3d3f5;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+nav ul li{
+ 
+    padding: 0 12px ;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+nav ul{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    height:40px;
+    list-style-type:none;
+    font-family: 'Lora', serif;   
+}
+
+li img{
+    height:34px;
+    padding: 0 10px;
+
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;   
+}
