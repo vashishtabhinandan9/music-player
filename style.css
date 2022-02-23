@@ -148,8 +148,8 @@ footer{
     height: 2cm;
     width:5cm ;
     border-radius: 12px;
-    /*opacity: 0;*/
-    transition: opacity 1s ease-in;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
 
 }
 

@@ -26,53 +26,66 @@
             <div class="songlist">
                 <ul>
                     <li>
-                        <span>
-                            <img src="assets/covers/1.jpg" alt="beat 1">
-                            <h4>Beat 1</h4>
-                            <div class="play">5:48 <i class="fa-solid fa-play"></i></div>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="0" class="indivisualPlay fa-solid fa-play"></i></div>
                         </span>
-                    </li>
-                    
+                    </li> 
                     <li>
-                        <span>
-                            <img src="assets/covers/1.jpg" alt="beat 1">
-                            <h4>Beat 1</h4>
-                            <div class="play">5:48 <i class="fa-solid fa-play"></i></div>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <img src="assets/covers/1.jpg" alt="beat 1">
-                            <h4>Beat 1</h4>
-                            <div class="play">5:48 <i class="fa-solid fa-play"></i></div>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="1" class="indivisualPlay fa-solid fa-play"></i></div>
                         </span>
                     </li>
                     <li>
-                        <span>
-                            <img src="assets/covers/1.jpg" alt="beat 1">
-                            <h4>Beat 1</h4>
-                            <div class="play">5:48 <i class="fa-solid fa-play"></i></div>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="2" class="indivisualPlay fa-solid fa-play"></i></div>
+                        </span>
+                    </li> 
+                    <li>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="3" class="indivisualPlay fa-solid fa-play"></i></div>
                         </span>
                     </li>
                     <li>
-                        <span>
-                            <img src="assets/covers/1.jpg" alt="beat 1">
-                            <h4>Beat 1</h4>
-                            <div class="play">5:48 <i class="fa-solid fa-play"></i></div>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="4" class="indivisualPlay fa-solid fa-play"></i></div>
                         </span>
                     </li>
                     <li>
-                        <span>
-                            <img src="assets/covers/1.jpg" alt="beat 1">
-                            <h4>Beat 1</h4>
-                            <div class="play">5:48 <i class="fa-solid fa-play"></i></div>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="5" class="indivisualPlay fa-solid fa-play"></i></div>
                         </span>
                     </li>
                     <li>
-                        <span>
-                            <img src="assets/covers/1.jpg" alt="beat 1">
-                            <h4>Beat 1</h4>
-                            <div class="play">5:48 <i class="fa-solid fa-play"></i></div>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="6" class="indivisualPlay fa-solid fa-play"></i></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="songitem">
+                            <img  alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="7" class="indivisualPlay fa-solid fa-play"></i></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="songitem">
+                            <img alt="beat 1">
+                            <h4 classname="songtitle">Beat 1</h4>
+                            <div>5:48 <i id="8" class="indivisualPlay fa-solid fa-play"></i></div>
                         </span>
                     </li>
                 </ul>
@@ -82,17 +95,17 @@
 
     </main>
 
-    <footer>
-        <input type="range" name="range" id="myprogressbar" min="0" max="100">
+    <footer><!--value makes teh set valu=0-->
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
         <div class="icons">
-         <div class="backwards"><i class="fa-solid fa-backward-step"></i></div>
-        <div class="play"><i class="fa-solid fa-play"></i></div>    
-        <div class="forward"><i class="fa-solid fa-forward-step"></i></div>
+        <div><i class="fa-solid fa-backward-step" id="previous"></i></div>
+        <div class="play"><i class="fa-solid fa-play" id="masterPlay"></i></div>    
+        <div><i class="fa-solid fa-forward-step" id="next"></i></div>
 
      
           <div class="songgif">
-            <img src="assets\playing.gif" alt="playing on">
-            <div class="songname">Beat1</div>
+            <img id="gif" src="assets\playing.gif" alt="playing on">
+            <div id="songname"> <!--here comes the name of song on the footer--> </div>
         </div>
 
       
