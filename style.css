@@ -1,5 +1,8 @@
+
+
 body{
     background-color:#f0e3d3f5;
+    
 }
 
 *{
@@ -20,7 +23,7 @@ nav ul{
     align-items: center;
     height:40px;
     list-style-type:none;
-    font-family: 'Lora', serif;   
+    font-family: 'Varela Round', sans-serif;  
 }
 
 li img{
@@ -33,4 +36,125 @@ li img{
     align-items: center;
     font-weight: bolder;
     font-size: 25px;   
+}
+
+main{
+
+}
+
+.heading{
+    padding:20px 20px;
+    position: sticky;
+    top:5px;
+   
+    
+}
+
+.hero{
+    width:80%;
+    color:azure;
+    height:60vh;
+    margin:30px auto;
+    background-color:rgb(163, 133, 48);
+    font-family: 'Lora', serif;
+    border-radius:12px ;
+    background-image:url("assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+.songlist span img{
+    height: 50px;
+    border-radius: 100%;
+}
+
+.songlist span div{
+    display: flex;
+    align-items: center;
+}
+
+.songlist span i{
+    padding-left: 10px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.songlist li{
+    
+    list-style-type: none;
+    height:65px;
+    width:65%;
+}
+.songlist span{
+    margin:20px 20px ;
+    color: black;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+    background-color: whitesmoke;
+    border-radius: 35px;
+    
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+
+
+.icons{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color:azure;
+    margin: 30px 0;
+    cursor: pointer;
+    height:44px;
+   
+}
+.icons div{
+   padding: 0 10px;
+   
+}
+
+/*
+.songgif img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+*/
+.songgif{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 5px; 
+    
+}
+
+.songgif img{
+    margin-top: 5px;
+    margin-right: 40px;
+    height: 2cm;
+    width:5cm ;
+    border-radius: 12px;
+    /*opacity: 0;*/
+    transition: opacity 1s ease-in;
+
+}
+
+#myprogressbar{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 85%;   
 }
